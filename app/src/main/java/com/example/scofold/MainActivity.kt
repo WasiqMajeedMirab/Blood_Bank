@@ -137,7 +137,8 @@ fun MainContent(padding: PaddingValues) {
                     })
                 Spacer(modifier = Modifier.height(40.dp))
             }
-
+//test
+            //assume updation of code
             Spacer(modifier = Modifier.height(40.dp))
 
             var Blood by remember { mutableStateOf(TextFieldValue("")) }
@@ -162,7 +163,7 @@ fun MainContent(padding: PaddingValues) {
             fun SimpleButton() {
                 Button(onClick = {
                     //your onclick code here
-                    
+
                 }) {
                     Text(text = "Submit")
                 }
